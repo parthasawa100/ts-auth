@@ -1,19 +1,13 @@
 {
-  "name": "typescript-auth",
-  "version": "1.0.2",
-  "description": "",
+  "name": "auth-package",
+  "version": "1.0.3",
+  "description": "Authentication package using JSON Web Tokens (JWT) in TypeScript.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc"
   },
   "dependencies": {
-    "jsonwebtoken": "^8.5.1"
-  },
-  "keywords": [],
-  "author": "parth asawa <parthasawa100@gmail.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "@types/jsonwebtoken": "^9.0.6"
+    "@types/jsonwebtoken": "^8.5.1"
   }
 }
