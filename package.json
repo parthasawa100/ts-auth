@@ -6,6 +6,10 @@
   "types": "dist/index.d.ts",
   "author": "Parth Asawa <parthasawa100@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/parthasawa100/typescript-auth.git"
+  },
   "scripts": {
     "build": "tsc"
   },
