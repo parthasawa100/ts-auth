@@ -15,7 +15,7 @@ class Authentication {
     }
     verify(token) {
         try {
-            jsonwebtoken_1.default.verify(token, this.config.secretKey);
+            jsonwebtoken_1.verify(token, this.config.secretKey);
             return true;
         }
         catch (error) {
