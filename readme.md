@@ -11,9 +11,6 @@ You can install Auth TypeScript via npm:
 ```bash
 npm install auth-typescript
 
-```
-
-#### Example
 import { Authentication, User, AuthConfig } from 'typescript-auth';
 interface CustomUser extends User {
     username: string;
@@ -34,6 +31,5 @@ console.log('Generated token:', token);
 const isTokenValid = auth.verify(token!);
 console.log('Is token valid?', isTokenValid);
 
-
-
+```
 
