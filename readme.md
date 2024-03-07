@@ -9,7 +9,7 @@ Auth TypeScript is an authentication package for TypeScript applications. It pro
 You can install Auth TypeScript via npm:
 
 ```bash
-npm install auth-typescript
+npm install typescript-auth
 
 import { Authentication, User, AuthConfig } from 'typescript-auth';
 interface CustomUser extends User {
