@@ -1,12 +1,19 @@
 {
-  "name": "ts-auth",
+  "name": "typescript-auth",
   "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1"
   },
   "keywords": [],
   "author": "parth asawa <parthasawa100@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.6"
+  }
 }
