@@ -1,6 +1,6 @@
 {
   "name": "typescript-auth",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Authentication package using JSON Web Tokens (JWT) in TypeScript.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -16,5 +16,15 @@
   "dependencies": {
     "@types/jsonwebtoken": "^9.0.6",
     "jsonwebtoken": "^9.0.2"
-  }
+  },
+  "keywords": [
+    "typescript",
+    "authentication",
+    "JWT",
+    "JSON Web Token",
+    "auth",
+    "security",
+    "token",
+    "typescript-auth"
+  ]
 }
